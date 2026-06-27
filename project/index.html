@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" id="sidebarToggle" class="sidebar-toggle">
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a class="navbar-logo" href="index.html">
+                <span class="logo-icon">
+                   <img src="logo.png.jpeg" alt="Logo">
+                </span>
+                <span class="logo-text">MEAL FINDER</span>
+            </a>
+            <label for="sidebarToggle" class="hamburger-menu">&#9776;</label>
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <label for="sidebarToggle" class="close-btn">&times;</label>
+        <nav class="sidebar-menu">
+            <a href="#beef">Beef</a>
+            <a href="#chicken">Chicken</a>
+            <a href="#dessert">Dessert</a>
+            <a href="#lamb">Lamb</a>
+            <a href="#miscellaneous">Miscellaneous</a>
+            <a href="#pasta">Pasta</a>
+            <a href="#pork">Pork</a>
+            <a href="#seafood">Seafood</a>
+            <a href="#side">Side</a>
+            <a href="#starter">Starter</a>
+            <a href="#vegan">Vegan</a>
+            <a href="#vegetarian-page">Vegetarian</a>
+            <a href="#breakfast">Breakfast</a>
+            <a href="#goat">Goat</a>
+        </nav>
+    </aside>
+
+    <label for="sidebarToggle" class="sidebar-overlay"></label>
+
+    <main class="hero-section">
+        <div class="hero-background" style="background-image: url('images/header_image.1dc0f346d407fc577d16.jpg');">
+            <div class="hero-overlay">
+                <div class="search-section">
+                    <div class="search-box">
+                       <input type="text"placeholder="Search recipes here ..."class="search-input"aria-label="Search recipes">
+                        <button class="search-button" aria-label="Search">&#128269;</button>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h2>What are your favorite cuisines?</h2>
+                    <p>PERSONALIZE YOUR EXPERIENCE</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="categories-section" id="categories">
+        <h2>CATEGORIES</h2>
+        <div class="categories-grid">
+            <div class="category-card" id="beef"><div class="category-image" style="background-image: url('images/beef.png');"></div><span class="category-badge">BEEF</span></div>
+            <div class="category-card" id="chicken"><div class="category-image" style="background-image: url('images/chicken.png');"></div><span class="category-badge">CHICKEN</span></div>
+            <div class="category-card" id="dessert"><div class="category-image" style="background-image: url('images/dessert.png');"></div><span class="category-badge">DESSERT</span></div>
+            <div class="category-card" id="lamb"><div class="category-image" style="background-image: url('images/lamb.png');"></div><span class="category-badge">LAMB</span></div>
+            <div class="category-card" id="miscellaneous"><div class="category-image" style="background-image: url('images/miscellaneous.png');"></div><span class="category-badge">MISCELLANEOUS</span></div>
+            <div class="category-card" id="pasta"><div class="category-image" style="background-image: url('images/pasta.png');"></div><span class="category-badge">PASTA</span></div>
+            <div class="category-card" id="pork"><div class="category-image" style="background-image: url('images/pork.png');"></div><span class="category-badge">PORK</span></div>
+            <div class="category-card" id="seafood"><div class="category-image" style="background-image: url('images/seafood.png');"></div><span class="category-badge">SEAFOOD</span></div>
+            <div class="category-card" id="side"><div class="category-image" style="background-image: url('images/side.png');"></div><span class="category-badge">SIDE</span></div>
+            <div class="category-card" id="starter"><div class="category-image" style="background-image: url('images/starter.png');"></div><span class="category-badge">STARTER</span></div>
+            <div class="category-card" id="vegan"><div class="category-image" style="background-image: url('images/vegan.png');"></div><span class="category-badge">VEGAN</span></div>
+            <a class="category-card category-link" id="vegetarian" href="#vegetarian-page"><div class="category-image" style="background-image: url('images/vegetarian.png');"></div><span class="category-badge">VEGETARIAN</span></a>
+            <div class="category-card" id="breakfast"><div class="category-image" style="background-image: url('images/breakfast.png');"></div><span class="category-badge">BREAKFAST</span></div>
+            <div class="category-card" id="goat"><div class="category-image" style="background-image: url('images/goat.png');"></div><span class="category-badge">GOAT</span></div>
+        </div>
+    </section>
+
+
+    <section class="vegetarian-page" id="vegetarian-page">
+    <div class="vegetarian-section" id="vegetarian-meals">
+                <div class="vegetarian-card vegetarian-card-top">
+                    <h2>Vegetarian</h2>
+                    <p>
+                        Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry,
+                        seafood, and the flesh of any other animal), and may also include abstention from by-products
+                        of animal slaughter. Vegetarianism may be adopted for various reasons. Many people object to
+                        eating meat out of respect for sentient life. Such ethical motivations have been codified under
+                        various religious beliefs, as well as animal rights advocacy. Other motivations for vegetarianism
+                        are health-related, political, environmental, cultural, aesthetic, economic, or personal preference.
+                        There are variations of the diet as well: an ovo-lacto vegetarian diet includes both eggs and dairy
+                        products, an ovo-vegetarian diet includes eggs but not dairy products, and a lacto-vegetarian diet
+                        includes dairy products but not eggs. A vegan diet excludes all animal products, including eggs and
+                        dairy. Some vegans also avoid other animal products such as beeswax, leather or silk clothing, and
+                        goose-fat shoe polish.
+                    </p>
+                </div>
+                <section class="meals-section" id="meals">
+                    <h2>MEALS</h2>
+                    <div class="meals-grid">
+                        <a class="meal-card meal-link" href="baingan-bharta.html"><img src="images/urtpqw1487341253.jpg" alt="Baingan Bharta"><span class="meal-country">India</span><h3>Baingan Bharta</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/zadvgb1699012544.jpg" alt="Betroot Soup"><span class="meal-country">Borscht</span><h3>Betroot Soup</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/60oc3k1699009846.jpg" alt="Cabbage Soup"><span class="meal-country">Poland</span><h3>Cabbage Soup</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/tvtxpq1511464705.jpg" alt="Chickpea Fajitas"><span class="meal-country">Mexico</span><h3>Chickpea Fajitas</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/c7lzrl1683208757.jpg" alt="Crispy Eggplant"><span class="meal-country">Greece</span><h3>Crispy Eggplant</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wuxrtu1483564410.jpg" alt="Dal Fry"><span class="meal-country">India</span><h3>Dal Fry</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/1529446137.jpg" alt="Egg Drop Soup"><span class="meal-country">China</span><h3>Egg Drop Soup</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/y7h0lq1683208991.jpg" alt="Eggplant Adobo"><span class="meal-country">Philippines</span><h3>Eggplant Adobo</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wssvvs1511785879.jpg" alt="Flamiche"><span class="meal-country">France</span><h3>Flamiche</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/lvn2d51598732465.jpg" alt="Ful Medames"><span class="meal-country">Egypt</span><h3>Ful Medames</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/uwxqwy1483389553.jpg" alt="Gigantes Plaki"><span class="meal-country">Greece</span><h3>Gigantes Plaki</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/bopa2i1683209167.jpg" alt="Grilled Eggplant with Coconut Milk"><span class="meal-country">Malaysia</span><h3>Grilled Eggplant with Coconut Milk</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wrpwuu1511786491.jpg" alt="Kafteji"><span class="meal-country">Tunisia</span><h3>Kafteji</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/sywrsu1511463066.jpg" alt="Kidney Bean Curry"><span class="meal-country">India</span><h3>Kidney Bean Curry</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/Koshari.jpg" alt="Koshari"><span class="meal-country">Egypt</span><h3>Koshari</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/x2fw9e1560460636.jpg" alt="Leblebi Soup"><span class="meal-country">Tunisia</span><h3>Leblebi Soup</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/xxpqsy1511452222.jpg" alt="Matar Paneer"><span class="meal-country">India</span><h3>Matar Paneer</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/jcr46d1614763831.jpg" alt="Moroccan Carrot Soup"><span class="meal-country">Morocco</span><h3>Moroccan Carrot Soup</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/ssyqwr1511451678.jpg" alt="Mushroom and Chestnut Rotolo"><span class="meal-country">United Kingdom</span><h3>Mushroom and Chestnut Rotolo</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/ebvuir1699013665.jpg" alt="Potato Salad(Olivier Salad)"><span class="meal-country">United States</span><h3>Potato Salad(Olivier Salad)</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/provencal omelette cake.jpg" alt="Provencal Omelette Cake"><span class="meal-country">France</span><h3>Provencal Omelette Cake</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wrpwuu1511786491.jpg" alt="Ratatouille"><span class="meal-country">France</span><h3>Ratatouille</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/xrrwpx1487347049.jpg" alt="Ribollita"><span class="meal-country">Italy</span><h3>Ribollita</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/ysqrus1487425681.jpg" alt="Roasted Eggplant With Tahini,Pine Nuts,and Lentils"><span class="meal-country">Lebanon</span><h3>Roasted Eggplant With Tahini,Pine Nuts,and Lentils</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/shakshuka.jpg" alt="Shakshuka"><span class="meal-country">Tunisia</span><h3>Shakshuka</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/uwxqwy1483389553.jpg" alt="Smoky Lentil Chilli with Squash"><span class="meal-country">United Kingdom</span><h3>Smoky Lentil Chilli with Squash</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/quuxsx1511476154.jpg" alt="Spanish Tortilla"><span class="meal-country">Spain</span><h3>Spanish Tortilla</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/spicy arrabiata penne.jpg" alt="Spicy  Arrabiata Penne"><span class="meal-country">Italy</span><h3>Spicy Arrabiata Penne</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/urtwux1486983078.jpg" alt="Spicy North African Potato Salad"><span class="meal-country">Greece</span><h3>Spicy North African Potato Salad</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wspuvp1511303478.jpg" alt="Spinach & Ricotta Cannelloni"><span class="meal-country">Italy</span><h3>Spinach & Ricotta Cannelloni</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wxswxy1511452625.jpg" alt="Squash Linguine"><span class="meal-country">Italy</span><h3>Squash Linguine</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/yqwtvu1487426027.jpg" alt="Stove Eggplant With Harissa, Chickpeas,and Cumin Yogurt"><span class="meal-country">Turkey</span><h3>Stove Eggplant With Harissa, Chickpeas,and Cumin Yogurt</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/stuffed.-bell-peppers.jpg" alt="Stuffed Bell Peppers with Quinoa and Black Beans"><span class="meal-country">France</span><h3>Stuffed Bell Peppers with Quinoa and Black Beans</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/rqtxvr1511792990.jpg" alt="Summer Pistou"><span class="meal-country">India</span><h3>Summer Pistou</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/vpxyqt1511464175.jpg" alt="Tahini Lentils"><span class="meal-country">Egypt</span><h3>Tahini Lentils</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/tamiya.jpg" alt="tamiya"><span class="meal-country">France</span><h3>Tamiya</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/va668f1683209318.jpg" alt="Tortang Talong"><span class="meal-country">United Kingdom</span><h3>Tortang Talong</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/vptwyt1511450962.jpg" alt="Vegetarian Casserole"><span class="meal-country">United States</span><h3>Vegetarian Casserole</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wqurxy1511453156.jpg" alt="Vegetarian Chilli"><span class="meal-country">Japan</span><h3>Vegetarian Chilli</h3></a>
+                        <a class="meal-card meal-link" href="#meal-details"><img src="images/wrustq1511475474.jpg" alt="yaki Udon"><span class="meal-country">Italy</span><h3>Yaki Udon</h3></a>
+                    </div>
+                </section>
+            </div>
+    </section>
+
+    <section class="meal-detail" id="meal-details">
+        <a class="meal-detail-breadcrumb" href="#vegetarian-page">
+            <span class="meal-detail-home">&#8962;</span>
+            <span class="meal-detail-separator">&raquo;</span>
+            <span id="meal-detail-breadcrumb-title">Air Fryer Patatas Bravas</span>
+        </a>
+
+        <h2 class="meal-detail-heading">MEAL DETAILS</h2>
+
+        <div class="meal-detail-panel">
+                <div class="meal-detail-grid">
+                <div class="meal-detail-media">
+                    <img id="meal-detail-image" src="https://butterandthyme.com/wp-content/uploads/2023/06/air-fryer-patatas-bravas-2-scaled.jpg" alt="Air Fryer Patatas Bravas">
+                    <div class="meal-detail-card-meta">
+                        <span class="meal-detail-country">France</span>
+                        <h3>Ratatouille</h3>
+                    </div>
+                </div>
+
+                <div class="meal-detail-summary">
+                    <h3>Ratatouille</h3>
+                    <div class="meal-detail-rule"></div>
+                    <p class="meal-detail-description">
+                      Ratatouille is a vegetarian dish from France.
+                    </p>
+                    <p class="meal-detail-meta"><strong>CATEGORY:</strong> <span id="meal-detail-category">VEGETARIAN</span></p>
+                    <p class="meal-detail-meta"><strong>Source:</strong> <span id="meal-detail-source">https://www.bbcgoodfood.com/recipes/air-fryer-patatas-bravas</span></p>
+                    <p class="meal-detail-meta"><strong>Tags:</strong> <span id="meal-detail-tags">Potatoes, Tapas, Easy, Vegetarian</span></p>
+
+                    <div class="meal-detail-ingredients">
+                        <h4>Ingredients</h4>
+        <ol class="ingredient-list">
+    <li>Aubergine</li>
+    <li>Courgettes</li>
+    <li>Yellow Pepper</li>
+    <li>Tomato</li>
+    <li>Olive Oil</li>
+    <li>Basil</li>
+    <li>Onion</li>
+    <li>Garlic Clove</li>
+    <li>Red Wine Vinegar</li>
+    <li>Sugar</li>
+       </ol>
+                    </div>
+                </div>
+            </div>
+
+        <div class="measure-grid">
+
+    <span>2 large Aubergine</span>
+    <span>4 Courgettes</span>
+
+    <span>2 Yellow Pepper</span>
+    <span>4 large Tomato</span>
+
+    <span>5 tbs Olive Oil</span>
+    <span>Bunch Basil</span>
+
+    <span>1 medium Onion</span>
+    <span>3 finely chopped Garlic Clove</span>
+
+    <span>1 tsp Red Wine Vinegar</span>
+    <span>1 tsp Sugar</span>
+
+         </div>
+            </div>
+
+            <div class="meal-detail-instructions">
+                <h4>Instructions</h4>
+            <ol class="instruction-list">
+
+    <li>
+        Cut the aubergines in half lengthways. Place them on the board,
+        cut side down, slice in half lengthways again and then across
+        into 1.5cm chunks.
+    </li>
+
+    <li>
+        Score a small cross on the base of each tomato, then put them into
+        a heatproof bowl. Pour boiling water over the tomatoes.
+    </li>
+
+    <li>
+        Set a sauté pan over medium heat and when hot, pour in olive oil.
+        Brown the aubergines for 5 minutes.
+    </li>
+
+    <li>
+        Tear up the basil leaves and set aside. Cook the onion,
+        add garlic and fry further. Stir in vinegar and sugar.
+    </li>
+
+       </ol>
+            </div>
+        </div>
+    </section>
+
+    <section class="repeat-categories-section" id="vegetarian-categories">
+        <h2>CATEGORIES</h2>
+        <div class="categories-grid">
+            <div class="category-card"><div class="category-image" style="background-image: url('project/images/beef.png');"></div><span class="category-badge">BEEF</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/chicken.png');"></div><span class="category-badge">CHICKEN</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/dessert.png');"></div><span class="category-badge">DESSERT</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/lamb.png');"></div><span class="category-badge">LAMB</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/miscellaneous.png');"></div><span class="category-badge">MISCELLANEOUS</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/pasta.png');"></div><span class="category-badge">PASTA</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/pork.png');"></div><span class="category-badge">PORK</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/seafood.png');"></div><span class="category-badge">SEAFOOD</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/side.png');"></div><span class="category-badge">SIDE</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/starter.png');"></div><span class="category-badge">STARTER</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/vegan.png');"></div><span class="category-badge">VEGAN</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/vegetarian.png');"></div><span class="category-badge">VEGETARIAN</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/breakfast.png');"></div><span class="category-badge">BREAKFAST</span></div>
+            <div class="category-card"><div class="category-image" style="background-image: url('images/goat.png');"></div><span class="category-badge">GOAT</span></div>
+        </div>
+    </section>
+</body>
+</html>
